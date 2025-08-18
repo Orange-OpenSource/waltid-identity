@@ -23,7 +23,7 @@ jobs:
           tool-cache: false
           docker-images: false
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Configure gradle
         uses: walt-id/waltid-identity/.github/actions/gradle-setup-action@a4a92e12ee9b7396ee9a22083ff21b3277c627d6
       - name: Set version
