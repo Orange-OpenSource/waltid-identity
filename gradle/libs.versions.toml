@@ -1,6 +1,6 @@
 [versions]
 # Build/compilation versions
-kotlin = "2.3.0"
+kotlin = "2.3.10"
 suspendtransform = "2.3.0-0.13.2"
 
 java-service = "21"
