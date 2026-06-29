@@ -7,7 +7,7 @@ java-service = "21"
 java-library = "17"
 
 # Plugins
-vanniktech-publish = "0.35.0"
+vanniktech-publish = "0.37.0"
 npm-publish = "3.5.3"
 jib = "3.5.2"
 android-gradle = "8.12.3"
