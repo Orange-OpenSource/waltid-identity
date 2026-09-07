@@ -71,7 +71,7 @@ jobs:
 
       - name: Build iOS Simulator Framework (ARM64)
         if: ${{ runner.os == 'macos'}}
-        uses: walt-id/waltid-identity/.github/actions/gradle-ios@d3aa55fb102dadb48032778d6e1df9a8f9155261
+        uses: walt-id/waltid-identity/.github/actions/gradle-ios@f5fd353d3ef236a11096e52f11b7197e497262b6
         with:
           waltid-directory: 'waltid-identity'
 
