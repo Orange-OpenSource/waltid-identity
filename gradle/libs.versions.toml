@@ -25,7 +25,7 @@ kotlinx-coroutines = "1.10.2"
 
 # Logging
 kotlinlogging = "7.0.14"
-slf4j-simple = "2.0.17"
+slf4j-simple = "2.0.18"
 
 # Misc
 cache4k = "0.14.0"
