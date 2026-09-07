@@ -60,7 +60,7 @@ jobs:
     with:
       version: ${{ needs.version.outputs.release_version }}
   enterprise-tag:
-    uses: walt-id/waltid-identity/.github/workflows/enterprise-tag.yml@8fcefa7d4f599104fbcffc982133848eef3035ac
+    uses: walt-id/waltid-identity/.github/workflows/enterprise-tag.yml@f5fd353d3ef236a11096e52f11b7197e497262b6
     secrets: inherit
     needs: [ version, deploy ]
     with:
