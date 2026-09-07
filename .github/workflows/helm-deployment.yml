@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout waltid-identity
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: walt-id/waltid-identity
           ref: ${{ github.ref_name }}
