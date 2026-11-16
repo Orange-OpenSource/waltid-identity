@@ -31,10 +31,10 @@ slf4j-simple = "2.0.17"
 cache4k = "0.14.0"
 
 # Crypto
-bouncycastle = "2.73.8"
+bouncycastle = "2.73.13"
 nimbus-jose = "10.6"
 jose-npm = "5.10.0"
-bcprov = "2.73.10"
+bcprov = "2.73.13"
 bcpkix = "2.73.10"
 kotlincrypto = "0.6.1"
 tink = "1.16.0"
